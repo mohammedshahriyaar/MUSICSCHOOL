@@ -3,7 +3,7 @@ import { Meteors } from "@/components/ui/meteors";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { use, useState } from "react";
 
-function page() {
+function Page() {
     const words = [
         {
           text: "For",
@@ -66,4 +66,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

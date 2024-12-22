@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json"
-function page() {
+function Page() {
   return (
     <div className=" ml-40 min-h-screen bg-black py-14 pt-36 text-center">
         <h2 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white ml-0"> All courses ({courseData.courses.length})</h2>
@@ -60,4 +60,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
